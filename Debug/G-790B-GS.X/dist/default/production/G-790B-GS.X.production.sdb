@@ -1,0 +1,1104 @@
+[p LITE_MODE PRO_MODE AUTOSTATIC LFSROK SPEEDOPT EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K80 ]
+[d frameptr 4065 ]
+"146 E:\Technical transform\Software\G-790B GS/src/Uart.c
+[e E15341 UART_RECV_MSG `uc
+UART_RECV_IDLE 0
+UART_RECV_VER 1
+UART_RECV_LENTH 2
+UART_RECV_CMD 3
+UART_RECV_FEEDBACK 4
+UART_RECV_DATAH 5
+UART_RECV_DATAL 6
+UART_RECV_CHECKSUMH 7
+UART_RECV_CHECKSUML 8
+UART_RECV_OVER 9
+]
+"196
+[e E15284 PLAYDEVICE_TYPE `uc
+PLAYDEVICE_NULL 0
+PLAYDEVICE_UD 1
+PLAYDEVICE_TF 2
+PLAYDEVICE_PC 3
+PLAYDEVICE_FLASH 4
+PLAYDEVICE_SLEEP 5
+PLAYDEVICE_MAX 6
+]
+"182
+[e E15292 UARTCMD_TYPE `uc
+UARTCMD_NEXT_FILE 1
+UARTCMD_PREV_FILE 2
+UARTCMD_NUM_POINT 3
+UARTCMD_VOL_UP 4
+UARTCMD_VOL_DOWN 5
+UARTCMD_VOL_POINT 6
+UARTCMD_EQ_POINT 7
+UARTCMD_LOOP_PLAY 8
+UARTCMD_PLAYDEVICE 9
+UARTCMD_SLEEP_MODE 10
+NO_UARTCMD 11
+UARTCMD_RESET 12
+UARTCMD_MUSIC_PLAY 13
+UARTCMD_MUSIC_PAUSE 14
+UARTCMD_MUSIC_FOLDER 15
+UARTCMD_KALA 16
+UARTCMD_PLAYALL 17
+UARTCMD_MUSIC_MP3 18
+UARTCMD_INSERT_ONE_FILE 19
+UARTCMD_INSERT_STOP 21
+UARTCMD_PLAY_STOP 22
+UARTCMD_PLAY_FILE_LOOP 23
+UARTCMD_PLAY_RANDOM 24
+UARTCMD_PLAY_CIRCLE 25
+UARTCMD_PLAY_DAC 26
+UARTCMD_INSERT_MUL_FILE 37
+UARTQUR_CARD_INSERT 58
+UARTQUR_CARD_OUTPUT 59
+UARTQUR_STAY_UD 60
+UARTQUR_STAY_TF 61
+UARTQUR_STAY_FLASH 62
+UARTQUR_START_UP 63
+UARTQUR_ERR 64
+UARTQUR_ACK 65
+UARTQUR_STATUS 66
+UARTQUR_VOL 67
+UARTQUR_EQ 68
+UARTQUR_PLAYMODE 69
+UARTQUR_VER 70
+UARTQUR_UDISK_TOTAL_FILES 71
+UARTQUR_TF_TOTAL_FILES 72
+UARTQUR_FLASH_TOTAL_FILES 73
+UARTQUR_STAY 74
+UARTQUR_UDISK_CONTENTS 75
+UARTQUR_TF_CONTENTS 76
+UARTQUR_FLASH_CONTENTS 77
+UARTQUR_TOTAL_FILES 78
+UARTQUR_FILES 79
+]
+"11 E:\Technical transform\Software\G-790B GS/src/Canbus.c
+[v _Can_init Can_init `(v  1 e 1 0 ]
+"69
+[v _InterruptHandlerHigh InterruptHandlerHigh `IIH(v  1 e 1 0 ]
+"148
+[v _read_rx read_rx `(v  1 e 1 0 ]
+"231
+[v _set_output set_output `(v  1 e 1 0 ]
+"34 E:\Technical transform\Software\G-790B GS/src/Main.c
+[v _Device_init Device_init `(v  1 e 1 0 ]
+"99
+[v _Timer0_init Timer0_init `(v  1 e 1 0 ]
+"108
+[v _Timer1_init Timer1_init `(v  1 e 1 0 ]
+"117
+[v _Load_DefaultPara Load_DefaultPara `(v  1 e 1 0 ]
+"135
+[v _Init_UserVar Init_UserVar `(v  1 e 1 0 ]
+"151
+[v _main main `(v  1 e 1 0 ]
+"6 E:\Technical transform\Software\G-790B GS/src/SubProg.c
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+"19
+[v _LedWork LedWork `(v  1 e 1 0 ]
+"43
+[v _Function_Config Function_Config `(v  1 e 1 0 ]
+"12 E:\Technical transform\Software\G-790B GS/src/Uart.c
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+"53
+[v _UART_SendBuf UART_SendBuf `(v  1 e 1 0 ]
+"83
+[v _UART_ReSend UART_ReSend `(v  1 e 1 0 ]
+"125
+[v _UART_CheckSum UART_CheckSum `(v  1 e 1 0 ]
+"145
+[v _UART_SendCommand UART_SendCommand `(v  1 e 1 0 ]
+"166
+[v _UART_Handle UART_Handle `(v  1 e 1 0 ]
+"236
+[v _UART_ResetCheck UART_ResetCheck `(v  1 e 1 0 ]
+"256
+[v _MP3_init MP3_init `(v  1 e 1 0 ]
+"282
+[v _Play_Task Play_Task `(v  1 e 1 0 ]
+"369
+[v _Play_Input Play_Input `(v  1 e 1 0 ]
+"418
+[v _MP3_Demo MP3_Demo `(v  1 e 1 0 ]
+"480
+[v _InterruptHandlerLow InterruptHandlerLow `IIL(v  1 e 1 0 ]
+"492 C:\Program Files\Microchip\xc8\v1.41\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v1.41\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.41\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files\Microchip\xc8\v1.41\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"4 C:\Program Files\Microchip\xc8\v1.41\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+[v i1___lbmod __lbmod `(uc  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.41\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files\Microchip\xc8\v1.41\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.41\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.41\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"75 E:\Technical transform\Software\G-790B GS/include\Canbus.h
+[v _rc rc `VEuc  1 e 1 0 ]
+"76
+[v _ro ro `VEuc  1 e 1 0 ]
+"77
+[v _ri ri `VEuc  1 e 1 0 ]
+"79
+[v _rx rx `VE[50][10]uc  1 e 500 0 ]
+"86 E:\Technical transform\Software\G-790B GS/include\Main.h
+[v _nmtstate nmtstate `uc  1 e 1 0 ]
+"87
+[v _com_can_work com_can_work `uc  1 e 1 0 ]
+"88
+[v _can_inittime can_inittime `uc  1 e 1 0 ]
+"89
+[v _CanErr_Flag CanErr_Flag `uc  1 e 1 0 ]
+"90
+[v _nmtwait nmtwait `VEui  1 e 2 0 ]
+"91
+[v _input input `VE[3]uc  1 e 3 0 ]
+"92
+[v _in in `VEuc  1 e 1 0 ]
+"93
+[v _virt_out virt_out `[7]uc  1 e 7 0 ]
+"96
+[v _mValumn_Switch mValumn_Switch `uc  1 e 1 0 ]
+"100
+[v _arrive_flag arrive_flag `uc  1 e 1 0 ]
+"101
+[v _updown_msg updown_msg `uc  1 e 1 0 ]
+"102
+[v _updown_msg_old updown_msg_old `uc  1 e 1 0 ]
+"103
+[v _floor_msg floor_msg `uc  1 e 1 0 ]
+"104
+[v _floor floor `uc  1 e 1 0 ]
+"106
+[v _warn_msg warn_msg `ui  1 e 2 0 ]
+"107
+[v _warn_msg_old warn_msg_old `ui  1 e 2 0 ]
+"108
+[v _warn_flag warn_flag `uc  1 e 1 0 ]
+"109
+[v _door_msg door_msg `uc  1 e 1 0 ]
+"110
+[v _door_flag door_flag `uc  1 e 1 0 ]
+"111
+[v _floor_flag floor_flag `uc  1 e 1 0 ]
+"112
+[v _updown_flag updown_flag `uc  1 e 1 0 ]
+"113
+[v _play_arrow play_arrow `uc  1 e 1 0 ]
+"114
+[v _music_file music_file `uc  1 e 1 0 ]
+"115
+[v _door_state door_state `[2]uc  1 e 2 0 ]
+"116
+[v _door_command door_command `uc  1 e 1 0 ]
+"117
+[v _play_timer play_timer `uc  1 e 1 0 ]
+"120
+[v _message_status message_status `ui  1 e 2 0 ]
+"122
+[v _music_back_timer music_back_timer `ui  1 e 2 0 ]
+"123
+[v _music_volumn music_volumn `uc  1 e 1 0 ]
+"124
+[v _music_back_status music_back_status `uc  1 e 1 0 ]
+"125
+[v _speech_lift speech_lift `uc  1 e 1 0 ]
+"128
+[v _music_output_timer music_output_timer `uc  1 e 1 0 ]
+"129
+[v _music_reset_number music_reset_number `uc  1 e 1 0 ]
+"130
+[v _music_init_finish music_init_finish `uc  1 e 1 0 ]
+"131
+[v _music_led_no_good music_led_no_good `uc  1 e 1 0 ]
+"133
+[v _floor_timer floor_timer `uc  1 e 1 0 ]
+[s S1884 Parameter 9 `uc 1 music_volumn 1 0 `uc 1 music_back_type 1 1 `uc 1 music_language 1 2 `uc 1 music_timer 1 3 `uc 1 floor_enable 1 4 `uc 1 arrow_enable 1 5 `uc 1 door_enable 1 6 `uc 1 input_enable 1 7 `uc 1 special_enable 1 8 ]
+"146
+[v _p p `S1884  1 e 9 0 ]
+[s S1894 . 1 `uc 1 time_5ms 1 0 :1:0 
+`uc 1 time_10ms 1 0 :1:1 
+`uc 1 time_50ms 1 0 :1:2 
+`uc 1 time_100ms 1 0 :1:3 
+`uc 1 time_500ms 1 0 :1:4 
+`uc 1 time_1s 1 0 :1:5 
+`uc 1 time_10s 1 0 :1:6 
+`uc 1 time_20s 1 0 :1:7 
+]
+"158
+[v _bTime_Fg bTime_Fg `S1894  1 e 1 0 ]
+[s S21 _FileName 520 `[260]*.25Cuc 1 table 520 0 ]
+"18 E:\Technical transform\Software\G-790B GS/include\MusicTab.h
+[v _tFloorTab_standard tFloorTab_standard `C[3]S21  1 e 1560 0 ]
+[s S23 _NonFileName 52 `[26]*.25Cuc 1 table 52 0 ]
+"177
+[v _tFloorTab_non_standard tFloorTab_non_standard `C[26]S23  1 e 1352 0 ]
+[s S2443 StructBuf 210 `[10]uc 1 RxBuf 10 0 `[200]uc 1 TxBuf 200 10 ]
+"210 E:\Technical transform\Software\G-790B GS/include\Uart.h
+[v _UartBuf UartBuf `S2443  1 e 210 0 ]
+"211
+[v _sReceive_status sReceive_status `[10]uc  1 e 10 0 ]
+"212
+[v _paly_num paly_num `VEuc  1 e 1 0 ]
+"213
+[v _DIO_Play_Flag DIO_Play_Flag `uc  1 e 1 0 ]
+"215
+[v _mRx1Head mRx1Head `uc  1 e 1 0 ]
+"216
+[v _uart1_send_busy uart1_send_busy `uc  1 e 1 0 ]
+"217
+[v _uart1_send_to uart1_send_to `uc  1 e 1 0 ]
+"218
+[v _uart1_send_ro uart1_send_ro `uc  1 e 1 0 ]
+"219
+[v _uart1_send_len uart1_send_len `uc  1 e 1 0 ]
+"220
+[v _uart1_status_ok uart1_status_ok `uc  1 e 1 0 ]
+"221
+[v _Send_buf Send_buf `[10]uc  1 e 10 0 ]
+"223
+[v _Resend_Flag Resend_Flag `uc  1 e 1 0 ]
+"224
+[v _ResendCount ResendCount `uc  1 e 1 0 ]
+"226
+[v _PlayDevice PlayDevice `uc  1 e 1 0 ]
+"230
+[v _UartRecvACK UartRecvACK `uc  1 e 1 0 ]
+"231
+[v _reset_flag reset_flag `uc  1 e 1 0 ]
+"233
+[v _PlayOverFlag PlayOverFlag `uc  1 e 1 0 ]
+"234
+[v _Time_xs_Flag Time_xs_Flag `uc  1 e 1 0 ]
+"235
+[v _Timerxs_count Timerxs_count `uc  1 e 1 0 ]
+"227 E:\Technical transform\Software\G-790B GS/src/Canbus.c
+[v _fire_alarm fire_alarm `uc  1 e 1 0 ]
+"228
+[v _fire_evacuation fire_evacuation `uc  1 e 1 0 ]
+"229
+[v _fire_state fire_state `uc  1 e 1 0 ]
+"187 C:\Program Files\Microchip\xc8\v1.41\include\pic18f45k80.h
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3651 ]
+"262
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3652 ]
+"346
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3653 ]
+"16117
+[v _RXF0SIDH RXF0SIDH `VEuc  1 e 1 @3808 ]
+"16236
+[v _RXF0SIDL RXF0SIDL `VEuc  1 e 1 @3809 ]
+"16580
+[v _RXF1SIDH RXF1SIDH `VEuc  1 e 1 @3812 ]
+"16699
+[v _RXF1SIDL RXF1SIDL `VEuc  1 e 1 @3813 ]
+"17043
+[v _RXF2SIDH RXF2SIDH `VEuc  1 e 1 @3816 ]
+"17162
+[v _RXF2SIDL RXF2SIDL `VEuc  1 e 1 @3817 ]
+"17506
+[v _RXF3SIDH RXF3SIDH `VEuc  1 e 1 @3820 ]
+"17625
+[v _RXF3SIDL RXF3SIDL `VEuc  1 e 1 @3821 ]
+"17969
+[v _RXF4SIDH RXF4SIDH `VEuc  1 e 1 @3824 ]
+"18088
+[v _RXF4SIDL RXF4SIDL `VEuc  1 e 1 @3825 ]
+"18432
+[v _RXF5SIDH RXF5SIDH `VEuc  1 e 1 @3828 ]
+"18551
+[v _RXF5SIDL RXF5SIDL `VEuc  1 e 1 @3829 ]
+"18895
+[v _RXM0SIDH RXM0SIDH `VEuc  1 e 1 @3832 ]
+"19014
+[v _RXM0SIDL RXM0SIDL `VEuc  1 e 1 @3833 ]
+"19358
+[v _RXM1SIDH RXM1SIDH `VEuc  1 e 1 @3836 ]
+"19477
+[v _RXM1SIDL RXM1SIDL `VEuc  1 e 1 @3837 ]
+"21345
+[v _TXB1SIDH TXB1SIDH `VEuc  1 e 1 @3857 ]
+"21464
+[v _TXB1SIDL TXB1SIDL `VEuc  1 e 1 @3858 ]
+"21813
+[v _TXB1DLC TXB1DLC `VEuc  1 e 1 @3861 ]
+"21898
+[v _TXB1D0 TXB1D0 `VEuc  1 e 1 @3862 ]
+"24066
+[v _RXB1CON RXB1CON `VEuc  1 e 1 @3888 ]
+[s S148 . 1 `uc 1 FILHIT0 1 0 :1:0 
+`uc 1 FILHIT1 1 0 :1:1 
+`uc 1 FILHIT2 1 0 :1:2 
+`uc 1 RXRTRRO_FILHIT3 1 0 :1:3 
+`uc 1 FILHIT4 1 0 :1:4 
+`uc 1 RXM0_RTRRO 1 0 :1:5 
+`uc 1 RXM1 1 0 :1:6 
+`uc 1 RXFUL 1 0 :1:7 
+]
+"24111
+[s S157 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXRTRRO 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXM0 1 0 :1:5 
+]
+[s S162 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 FILHIT3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RTRRO 1 0 :1:5 
+]
+[s S167 . 1 `uc 1 RXB1FILHIT0 1 0 :1:0 
+`uc 1 RXB1FILHIT1 1 0 :1:1 
+`uc 1 RXB1FILHIT2 1 0 :1:2 
+`uc 1 RXB1FILHIT3 1 0 :1:3 
+`uc 1 RXB1FILHIT4 1 0 :1:4 
+`uc 1 RXB1M0 1 0 :1:5 
+`uc 1 RXB1M1 1 0 :1:6 
+`uc 1 RXB1FUL 1 0 :1:7 
+]
+[s S176 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXB1RTRR0 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXB1RTRRO 1 0 :1:5 
+]
+[u S181 . 1 `S148 1 . 1 0 `S157 1 . 1 0 `S162 1 . 1 0 `S167 1 . 1 0 `S176 1 . 1 0 ]
+[v _RXB1CONbits RXB1CONbits `VES181  1 e 1 @3888 ]
+"24225
+[v _RXB1SIDH RXB1SIDH `VEuc  1 e 1 @3889 ]
+"24344
+[v _RXB1SIDL RXB1SIDL `VEuc  1 e 1 @3890 ]
+"24698
+[v _RXB1DLC RXB1DLC `VEuc  1 e 1 @3893 ]
+"24811
+[v _RXB1D0 RXB1D0 `VEuc  1 e 1 @3894 ]
+"26591
+[v _IOCB IOCB `VEuc  1 e 1 @3930 ]
+"26629
+[v _WPUB WPUB `VEuc  1 e 1 @3931 ]
+"26690
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3932 ]
+"26789
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3933 ]
+"27430
+[v _RXB0CON RXB0CON `VEuc  1 e 1 @3936 ]
+[s S256 . 1 `uc 1 FILHIT0 1 0 :1:0 
+`uc 1 JTOFF_FILHIT1 1 0 :1:1 
+`uc 1 RB0DBEN_FILHIT2 1 0 :1:2 
+`uc 1 RXRTRRO_FILHIT3 1 0 :1:3 
+`uc 1 FILHIT4 1 0 :1:4 
+`uc 1 RXM0_RTRRO 1 0 :1:5 
+`uc 1 RXM1 1 0 :1:6 
+`uc 1 RXFUL 1 0 :1:7 
+]
+"27479
+[s S265 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 JTOFF 1 0 :1:1 
+`uc 1 RB0DBEN 1 0 :1:2 
+`uc 1 RXRTRRO 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RTRRO 1 0 :1:5 
+]
+[s S272 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 FILHIT1 1 0 :1:1 
+`uc 1 FILHIT2 1 0 :1:2 
+`uc 1 FILHIT3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXM0 1 0 :1:5 
+]
+[s S279 . 1 `uc 1 RXB0FILHIT0 1 0 :1:0 
+`uc 1 RXB0FILHIT1 1 0 :1:1 
+`uc 1 RXB0FILHIT2 1 0 :1:2 
+`uc 1 RXB0FILHIT3 1 0 :1:3 
+`uc 1 RXB0FILHIT4 1 0 :1:4 
+`uc 1 RXB0M0 1 0 :1:5 
+`uc 1 RXB0M1 1 0 :1:6 
+`uc 1 RXB0FUL 1 0 :1:7 
+]
+[s S288 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXB0RTRR0 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXB0RTRRO 1 0 :1:5 
+]
+[u S293 . 1 `S256 1 . 1 0 `S265 1 . 1 0 `S272 1 . 1 0 `S279 1 . 1 0 `S288 1 . 1 0 ]
+[v _RXB0CONbits RXB0CONbits `VES293  1 e 1 @3936 ]
+"27613
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @3937 ]
+"27732
+[v _RXB0SIDL RXB0SIDL `VEuc  1 e 1 @3938 ]
+"28751
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @3950 ]
+"28861
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+[s S96 . 1 `uc 1 CLKSEL 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 CANCAP 1 0 :1:4 
+`uc 1 ENDRHI 1 0 :1:5 
+`uc 1 TX2EN 1 0 :1:6 
+`uc 1 TX2SRC 1 0 :1:7 
+]
+"28967
+[u S103 . 1 `S96 1 . 1 0 ]
+[v _CIOCONbits CIOCONbits `VES103  1 e 1 @3952 ]
+[s S337 . 1 `uc 1 EWARN 1 0 :1:0 
+`uc 1 RXWARN 1 0 :1:1 
+`uc 1 TXWARN 1 0 :1:2 
+`uc 1 RXBP 1 0 :1:3 
+`uc 1 TXBP 1 0 :1:4 
+`uc 1 TXBO 1 0 :1:5 
+`uc 1 RXB1OVFL 1 0 :1:6 
+`uc 1 RXB0OVFL 1 0 :1:7 
+]
+"29026
+[s S346 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_FIFOEMPTY 1 0 :1:7 
+]
+[s S349 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 nFIFOEMPTY 1 0 :1:7 
+]
+[s S352 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RXBNOVFL 1 0 :1:6 
+`uc 1 FIFOEMPTY 1 0 :1:7 
+]
+[u S356 . 1 `S337 1 . 1 0 `S346 1 . 1 0 `S349 1 . 1 0 `S352 1 . 1 0 ]
+[v _COMSTATbits COMSTATbits `VES356  1 e 1 @3953 ]
+"29223
+[v _PIE5 PIE5 `VEuc  1 e 1 @3958 ]
+"29305
+[v _PIR5 PIR5 `VEuc  1 e 1 @3959 ]
+[s S221 . 1 `uc 1 RXB0IF 1 0 :1:0 
+`uc 1 RXB1IF 1 0 :1:1 
+`uc 1 TXB0IF 1 0 :1:2 
+`uc 1 TXB1IF 1 0 :1:3 
+`uc 1 TXB2IF 1 0 :1:4 
+`uc 1 ERRIF 1 0 :1:5 
+`uc 1 WAKIF 1 0 :1:6 
+`uc 1 IRXIF 1 0 :1:7 
+]
+"29328
+[s S230 . 1 `uc 1 FIFOWMIF 1 0 :1:0 
+`uc 1 RXBnIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBnIF 1 0 :1:4 
+]
+[u S235 . 1 `S221 1 . 1 0 `S230 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES235  1 e 1 @3959 ]
+"29387
+[v _IPR5 IPR5 `VEuc  1 e 1 @3960 ]
+"29572
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @3965 ]
+"29675
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"29753
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"29823
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"29908
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"29978
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"30165
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"30266
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"30377
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"30488
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S1922 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"30515
+[s S1931 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S1940 . 1 `S1922 1 . 1 0 `S1931 1 . 1 0 ]
+[v _LATDbits LATDbits `VES1940  1 e 1 @3980 ]
+"30599
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"30650
+[v _SLRCON SLRCON `VEuc  1 e 1 @3984 ]
+"30693
+[v _ODCON ODCON `VEuc  1 e 1 @3985 ]
+"30754
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"30810
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S75 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"30827
+[u S84 . 1 `S75 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES84  1 e 1 @3987 ]
+"30871
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S2446 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"30888
+[u S2455 . 1 `S2446 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES2455  1 e 1 @3988 ]
+"30932
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"30993
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S2096 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR1GIE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"31287
+[s S2105 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+[u S2109 . 1 `S2096 1 . 1 0 `S2105 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES2109  1 e 1 @3997 ]
+[s S2036 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR1GIF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"31363
+[s S2045 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S2049 . 1 `S2036 1 . 1 0 `S2045 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES2049  1 e 1 @3998 ]
+[s S2066 . 1 `uc 1 TMR1IP 1 0 :1:0 
+`uc 1 TMR2IP 1 0 :1:1 
+`uc 1 TMR1GIP 1 0 :1:2 
+`uc 1 SSPIP 1 0 :1:3 
+`uc 1 TX1IP 1 0 :1:4 
+`uc 1 RC1IP 1 0 :1:5 
+`uc 1 ADIP 1 0 :1:6 
+`uc 1 PSPIP 1 0 :1:7 
+]
+"31439
+[s S2075 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIP 1 0 :1:4 
+`uc 1 RCIP 1 0 :1:5 
+]
+[u S2079 . 1 `S2066 1 . 1 0 `S2075 1 . 1 0 ]
+[v _IPR1bits IPR1bits `VES2079  1 e 1 @3999 ]
+[s S2467 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"32040
+[s S2476 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S2479 . 1 `uc 1 ABDEN1 1 0 :1:0 
+`uc 1 WUE1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG161 1 0 :1:3 
+`uc 1 CKTXP 1 0 :1:4 
+`uc 1 DTRXP 1 0 :1:5 
+`uc 1 RCIDL1 1 0 :1:6 
+`uc 1 ABDOVF1 1 0 :1:7 
+]
+[s S2488 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 DTRXP1 1 0 :1:5 
+`uc 1 RCMT1 1 0 :1:6 
+]
+[s S2493 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP1 1 0 :1:4 
+`uc 1 RXDTP1 1 0 :1:5 
+]
+[s S2497 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP1 1 0 :1:4 
+]
+[u S2500 . 1 `S2467 1 . 1 0 `S2476 1 . 1 0 `S2479 1 . 1 0 `S2488 1 . 1 0 `S2493 1 . 1 0 `S2497 1 . 1 0 ]
+[v _BAUDCON1bits BAUDCON1bits `VES2500  1 e 1 @4007 ]
+"32149
+[v _HLVDCON HLVDCON `VEuc  1 e 1 @4008 ]
+"32340
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+[s S2807 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"32395
+[s S2816 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S2822 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_RC8 1 0 :1:6 
+]
+[s S2825 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S2828 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S2831 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+[s S2840 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S2843 . 1 `S2807 1 . 1 0 `S2816 1 . 1 0 `S2822 1 . 1 0 `S2825 1 . 1 0 `S2828 1 . 1 0 `S2831 1 . 1 0 `S2840 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES2843  1 e 1 @4011 ]
+"32677
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+"32964
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"33001
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"33038
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"35420
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+"35527
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"35546
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
+[s S2140 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"35613
+[s S2142 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+"35613
+[s S2145 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+"35613
+[s S2148 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+"35613
+[s S2151 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+"35613
+[s S2154 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_CM 1 0 :1:5 
+]
+"35613
+[s S2157 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 nCM 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+"35613
+[s S2166 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 CM 1 0 :1:5 
+]
+"35613
+[u S2173 . 1 `S2140 1 . 1 0 `S2142 1 . 1 0 `S2145 1 . 1 0 `S2148 1 . 1 0 `S2151 1 . 1 0 `S2154 1 . 1 0 `S2157 1 . 1 0 `S2166 1 . 1 0 ]
+"35613
+"35613
+[v _RCONbits RCONbits `VES2173  1 e 1 @4048 ]
+"35717
+[v _WDTCON WDTCON `VEuc  1 e 1 @4049 ]
+"35923
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"35998
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"36017
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S1992 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"36700
+[s S1995 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 INT3IP 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 INTEDG3 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"36700
+[s S2004 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT3P 1 0 :1:1 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+"36700
+[u S2010 . 1 `S1992 1 . 1 0 `S1995 1 . 1 0 `S2004 1 . 1 0 ]
+"36700
+"36700
+[v _INTCON2bits INTCON2bits `VES2010  1 e 1 @4081 ]
+"36764
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+[s S25 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"36801
+[s S34 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"36801
+[s S43 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"36801
+[u S47 . 1 `S25 1 . 1 0 `S34 1 . 1 0 `S43 1 . 1 0 ]
+"36801
+"36801
+[v _INTCONbits INTCONbits `VES47  1 e 1 @4082 ]
+"151 E:\Technical transform\Software\G-790B GS/src/Main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"152
+[v main@baudrate baudrate `uc  1 a 1 31 ]
+"265
+} 0
+"148 E:\Technical transform\Software\G-790B GS/src/Canbus.c
+[v _read_rx read_rx `(v  1 e 1 0 ]
+{
+"149
+[v read_rx@index index `ui  1 a 2 26 ]
+"150
+[v read_rx@i i `uc  1 a 1 29 ]
+[v read_rx@size size `uc  1 a 1 28 ]
+"225
+} 0
+"231
+[v _set_output set_output `(v  1 e 1 0 ]
+{
+"237
+[v set_output@buf buf `[5]uc  1 a 5 9 ]
+"233
+[v set_output@i i `ui  1 a 2 19 ]
+"232
+[v set_output@j j `uc  1 a 1 21 ]
+"235
+[v set_output@mes mes `uc  1 a 1 18 ]
+"234
+[v set_output@iotype iotype `uc  1 a 1 17 ]
+"236
+[v set_output@floor_unit floor_unit `uc  1 a 1 16 ]
+[v set_output@floor_ten floor_ten `uc  1 a 1 15 ]
+"232
+[v set_output@finish finish `uc  1 a 1 14 ]
+"231
+[v set_output@virt virt `*.30uc  1 p 1 0 ]
+"419
+} 0
+"492 C:\Program Files\Microchip\xc8\v1.41\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+"530
+[v sprintf@cp cp `*.25Cuc  1 a 2 35 ]
+"499
+[v sprintf@c c `c  1 a 1 34 ]
+"494
+[v sprintf@ap ap `[1]*.30v  1 a 1 33 ]
+"492
+[v sprintf@sp sp `*.30uc  1 p 1 28 ]
+[v sprintf@f f `*.25Cuc  1 p 2 29 ]
+"1541
+} 0
+"4 C:\Program Files\Microchip\xc8\v1.41\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 31 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 30 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 28 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 29 ]
+"18
+} 0
+"236 E:\Technical transform\Software\G-790B GS/src/Uart.c
+[v _UART_ResetCheck UART_ResetCheck `(v  1 e 1 0 ]
+{
+"251
+} 0
+"12
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+{
+[v UART_Init@baud baud `ui  1 p 2 28 ]
+"32
+} 0
+"256
+[v _MP3_init MP3_init `(v  1 e 1 0 ]
+{
+"273
+} 0
+"6 E:\Technical transform\Software\G-790B GS/src/SubProg.c
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+{
+"7
+[v delay_ms@i i `VEui  1 a 2 30 ]
+"6
+[v delay_ms@tick tick `ui  1 p 2 28 ]
+"14
+} 0
+"83 E:\Technical transform\Software\G-790B GS/src/Uart.c
+[v _UART_ReSend UART_ReSend `(v  1 e 1 0 ]
+{
+"96
+} 0
+"166
+[v _UART_Handle UART_Handle `(v  1 e 1 0 ]
+{
+"167
+[v UART_Handle@checksum checksum `ui  1 a 2 32 ]
+"169
+[v UART_Handle@data_l data_l `uc  1 a 1 35 ]
+"168
+[v UART_Handle@i i `uc  1 a 1 34 ]
+[v UART_Handle@command command `uc  1 a 1 31 ]
+"166
+[v UART_Handle@pBuf pBuf `*.30uc  1 p 1 28 ]
+"234
+} 0
+"108 E:\Technical transform\Software\G-790B GS/src/Main.c
+[v _Timer1_init Timer1_init `(v  1 e 1 0 ]
+{
+"115
+} 0
+"99
+[v _Timer0_init Timer0_init `(v  1 e 1 0 ]
+{
+"106
+} 0
+"418 E:\Technical transform\Software\G-790B GS/src/Uart.c
+[v _MP3_Demo MP3_Demo `(v  1 e 1 0 ]
+{
+"478
+} 0
+"282
+[v _Play_Task Play_Task `(v  1 e 1 0 ]
+{
+"283
+[v Play_Task@files files `ui  1 a 2 4 ]
+"284
+[v Play_Task@i i `uc  1 a 1 6 ]
+[v Play_Task@j j `uc  1 a 1 3 ]
+"360
+} 0
+"369
+[v _Play_Input Play_Input `(v  1 e 1 0 ]
+{
+"371
+[v Play_Input@files files `ui  1 a 2 1 ]
+"370
+[v Play_Input@in_data in_data `uc  1 a 1 4 ]
+[v Play_Input@i i `uc  1 a 1 3 ]
+"372
+[v Play_Input@in_data_old in_data_old `uc  1 s 1 in_data_old ]
+"410
+} 0
+"145
+[v _UART_SendCommand UART_SendCommand `(v  1 e 1 0 ]
+{
+[v UART_SendCommand@CMD CMD `uc  1 a 1 wreg ]
+[v UART_SendCommand@CMD CMD `uc  1 a 1 wreg ]
+[v UART_SendCommand@feedback feedback `uc  1 p 1 33 ]
+[v UART_SendCommand@dat dat `ui  1 p 2 34 ]
+[v UART_SendCommand@CMD CMD `uc  1 a 1 36 ]
+"157
+} 0
+"53
+[v _UART_SendBuf UART_SendBuf `(v  1 e 1 0 ]
+{
+"54
+[v UART_SendBuf@i i `uc  1 a 1 30 ]
+"53
+[v UART_SendBuf@pBuf pBuf `*.30uc  1 p 1 28 ]
+[v UART_SendBuf@len len `uc  1 p 1 29 ]
+"74
+} 0
+"125
+[v _UART_CheckSum UART_CheckSum `(v  1 e 1 0 ]
+{
+"126
+[v UART_CheckSum@xorsum xorsum `ui  1 a 2 30 ]
+"127
+[v UART_CheckSum@i i `uc  1 a 1 32 ]
+"125
+[v UART_CheckSum@Str Str `*.30uc  1 p 1 28 ]
+[v UART_CheckSum@len len `uc  1 p 1 29 ]
+"134
+} 0
+"19 E:\Technical transform\Software\G-790B GS/src/SubProg.c
+[v _LedWork LedWork `(v  1 e 1 0 ]
+{
+"20
+[v LedWork@mLedCycle_Cnt mLedCycle_Cnt `uc  1 s 1 mLedCycle_Cnt ]
+"34
+} 0
+"135 E:\Technical transform\Software\G-790B GS/src/Main.c
+[v _Init_UserVar Init_UserVar `(v  1 e 1 0 ]
+{
+"136
+[v Init_UserVar@i i `uc  1 a 1 32 ]
+"146
+} 0
+"117
+[v _Load_DefaultPara Load_DefaultPara `(v  1 e 1 0 ]
+{
+"129
+} 0
+"43 E:\Technical transform\Software\G-790B GS/src/SubProg.c
+[v _Function_Config Function_Config `(v  1 e 1 0 ]
+{
+"46
+[v Function_Config@k k `[8]uc  1 a 8 8 ]
+[v Function_Config@m m `[8]uc  1 a 8 0 ]
+"44
+[v Function_Config@i i `uc  1 a 1 18 ]
+[v Function_Config@a a `uc  1 a 1 17 ]
+[v Function_Config@j j `uc  1 a 1 16 ]
+"73
+} 0
+"34 E:\Technical transform\Software\G-790B GS/src/Main.c
+[v _Device_init Device_init `(v  1 e 1 0 ]
+{
+"90
+} 0
+"11 E:\Technical transform\Software\G-790B GS/src/Canbus.c
+[v _Can_init Can_init `(v  1 e 1 0 ]
+{
+[v Can_init@baud_rate baud_rate `uc  1 a 1 wreg ]
+"12
+[v Can_init@j j `uc  1 a 1 32 ]
+[v Can_init@i i `uc  1 a 1 31 ]
+"11
+[v Can_init@baud_rate baud_rate `uc  1 a 1 wreg ]
+"13
+[v Can_init@baud_rate baud_rate `uc  1 a 1 30 ]
+"67
+} 0
+"480 E:\Technical transform\Software\G-790B GS/src/Uart.c
+[v _InterruptHandlerLow InterruptHandlerLow `IIL(v  1 e 1 0 ]
+{
+"481
+[v InterruptHandlerLow@i i `uc  1 a 1 27 ]
+[v InterruptHandlerLow@j j `uc  1 a 1 26 ]
+"482
+[v InterruptHandlerLow@toggle toggle `uc  1 s 1 toggle ]
+"483
+[v InterruptHandlerLow@t1_cnt t1_cnt `uc  1 s 1 t1_cnt ]
+"484
+[v InterruptHandlerLow@uart_rest_dly uart_rest_dly `uc  1 s 1 uart_rest_dly ]
+"655
+} 0
+"4 C:\Program Files\Microchip\xc8\v1.41\sources\common\lbmod.c
+[v i1___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v i1___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v i1___lbmod@rem __lbmod `uc  1 a 1 16 ]
+[v i1___lbmod@counter __lbmod `uc  1 a 1 15 ]
+[v i1___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v i1___lbmod@divisor divisor `uc  1 p 1 13 ]
+"9
+[v i1___lbmod@dividend dividend `uc  1 a 1 14 ]
+"18
+} 0
+"69 E:\Technical transform\Software\G-790B GS/src/Canbus.c
+[v _InterruptHandlerHigh InterruptHandlerHigh `IIH(v  1 e 1 0 ]
+{
+"72
+[v InterruptHandlerHigh@ptr ptr `*.39uc  1 a 2 8 ]
+"70
+[v InterruptHandlerHigh@i i `uc  1 a 1 12 ]
+"73
+[v InterruptHandlerHigh@tempCANSTAT tempCANSTAT `uc  1 a 1 11 ]
+"71
+[v InterruptHandlerHigh@lenght lenght `uc  1 a 1 10 ]
+"143
+} 0
